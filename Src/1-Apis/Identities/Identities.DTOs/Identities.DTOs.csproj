@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="v1_0\Registers\Responses\**" />
+	  <EmbeddedResource Remove="v1_0\Registers\Responses\**" />
+	  <None Remove="v1_0\Registers\Responses\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\..\0-Commons\HR.Common.DTOs\HR.Common.DTOs.csproj" />
+		<ProjectReference Include="..\..\..\0-Commons\HR.Common.Libs\HR.Common.Libs.csproj" />
+		<ProjectReference Include="..\..\..\0-Commons\HR.Common.Results\HR.Common.Results.csproj" />
+	</ItemGroup>
+
+</Project>

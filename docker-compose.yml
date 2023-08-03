@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+    identitiesapi:
+        image: identitiesapi
+        build:
+            context: .
+            dockerfile: Src/1-Apis/Identities/Identities.Api/Dockerfile
+        restart: unless-stopped
+        container_name: identitiesapi
+        ports:
+            - 32000:8080
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        network_mode: bridge
+
+    #usermanagement-api-gateway:
+    #    image: usermanagement-api-gateway
+    #    build:
+    #        context: .
+    #        dockerfile: 1-Apis/ApiGateway/ApiGateway.Api/Dockerfile
+    #    restart: unless-stopped
+    #    container_name: usermanagement-api-gateway
+    #    ports:
+    #        - 31000:8080
+    #    environment:
+    #        - ASPNETCORE_ENVIRONMENT=Local
+    #        #- ASPNETCORE_ENVIRONMENT=Development
+    #    network_mode: bridge

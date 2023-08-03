@@ -1,0 +1,13 @@
+{
+  "SwaggerSettings": {
+    "DocumentTitle": "HR Time Attendance Api",
+    "EnabledDocument": false,
+    "Versions": [
+      {
+        "Version": "v1.0",
+        "Title": "HR Time Attendance Api v1",
+        "Description": "HR Time Attendance Api v1"
+      }
+    ]
+  }
+}

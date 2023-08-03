@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Employees\**" />
+    <Compile Remove="TimeAttendances\**" />
+    <EmbeddedResource Remove="Employees\**" />
+    <EmbeddedResource Remove="TimeAttendances\**" />
+    <None Remove="Employees\**" />
+    <None Remove="TimeAttendances\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HR.Common.Enums\HR.Common.Enums.csproj" />
+    <ProjectReference Include="..\HR.Common.Libs\HR.Common.Libs.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HR.Common.Attributes\HR.Common.Attributes.csproj" />
+    <ProjectReference Include="..\HR.Common.Configurations\HR.Common.Configurations.csproj" />
+    <ProjectReference Include="..\HR.Common.DALs\HR.Common.DALs.csproj" />
+    <ProjectReference Include="..\HR.Common.Identities\HR.Common.Identities.csproj" />
+    <ProjectReference Include="..\HR.Common.Results\HR.Common.Results.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+{
+  "HRUrlSettings": {
+    "IdentityApi": {
+      "Host": "http://localhost:32000",
+      "RegisterUrl": "/api/v1.0/register"
+    }
+  }
+}

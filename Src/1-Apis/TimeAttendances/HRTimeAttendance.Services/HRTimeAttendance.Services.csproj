@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\0-Commons\HR.Common.DALs\HR.Common.DALs.csproj" />
+    <ProjectReference Include="..\..\..\0-Commons\HR.Common.DbContexts\HR.Common.DbContexts.csproj" />
+    <ProjectReference Include="..\..\..\0-Commons\HR.Common.DTOs\HR.Common.DTOs.csproj" />
+    <ProjectReference Include="..\..\..\0-Commons\HR.Common.Libs\HR.Common.Libs.csproj" />
+    <ProjectReference Include="..\..\..\0-Commons\HR.Common.Models\HR.Common.Models.csproj" />
+    <ProjectReference Include="..\..\..\0-Commons\HR.Common.Services\HR.Common.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Employees\Commands\Bases\" />
+  </ItemGroup>
+
+</Project>

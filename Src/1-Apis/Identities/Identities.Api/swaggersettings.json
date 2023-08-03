@@ -1,0 +1,13 @@
+{
+  "SwaggerSettings": {
+    "DocumentTitle": "HR Identity Api",
+    "EnabledDocument": false,
+    "Versions": [
+      {
+        "Version": "v1.0",
+        "Title": "HR Identity Api v1",
+        "Description": "HR Identity Api v1"
+      }
+    ]
+  }
+}

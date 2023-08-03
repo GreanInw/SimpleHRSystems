@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HR.Common.Configurations\HR.Common.Configurations.csproj" />
+    <ProjectReference Include="..\HR.Common.Constants\HR.Common.Constants.csproj" />
+    <ProjectReference Include="..\HR.Common.Results\HR.Common.Results.csproj" />
+  </ItemGroup>
+
+</Project>

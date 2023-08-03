@@ -1,0 +1,8 @@
+{
+  "HRUrlSettings": {
+    "IdentityApi": {
+      "Host": "",
+      "RegisterUrl": ""
+    }
+  }
+}

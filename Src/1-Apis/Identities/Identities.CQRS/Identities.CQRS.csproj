@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Identities.DTOs\Identities.DTOs.csproj" />
+    <ProjectReference Include="..\Identities.Services\Identities.Services.csproj" />
+  </ItemGroup>
+
+</Project>
